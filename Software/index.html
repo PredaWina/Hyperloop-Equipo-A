@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensor de temperatura</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">       
 
-    <script src="Js/jsTest.js"></script>
+    <script src="js/jsTest.js"></script>
 </head>
 <body onload="Test()">
     <header class="header">
@@ -23,11 +23,21 @@
     </header>
 
     <main class="main">
-        <div class="contendor-temperatura">
-            <img class="contendor-temperatura-imagen" src="https://images.vexels.com/media/users/3/199970/isolated/preview/c465fa74c894b4ebb159003f845f172d-icono-de-term--metro-alto-by-vexels.png" alt="termometro">
-            <p id="texto-temp" class="texto-grande"> 0,0000 </p>
-            <p class="texto-grande"> Cº</p>
-        </div>
+        <section class="contendor-temperatura">
+            <div class="contenedor-temperatura-texto">
+                <img class="contendor-temperatura-imagen" src="https://images.vexels.com/media/users/3/199970/isolated/preview/c465fa74c894b4ebb159003f845f172d-icono-de-term--metro-alto-by-vexels.png" alt="termometro">
+                <p id="texto-temp" class="texto-grande"> 0,0000 </p>
+                <p class="texto-grande"> Cº</p>
+
+            </div>
+            
+            
+
+           
+            <input class="contenedor-boton" type="image" src="https://cdn.onlinewebfonts.com/svg/img_68580.png" alt="">
+            
+          
+        </section>
 
     </main>
 

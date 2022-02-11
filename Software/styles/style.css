@@ -36,7 +36,8 @@ body{
 }
     .contendor-temperatura{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
 
         height: fit-content;
@@ -46,16 +47,27 @@ body{
 
         background-color: #1C1D21;
     }
-        .contendor-temperatura-imagen{
+        .contenedor-temperatura-texto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .contendor-temperatura-imagen{
+                height: 5rem;
+                width: 5rem;
+            }
+
+            .texto-grande{
+                color: #F1E3E4;
+                margin: .1rem;
+
+                font-size: 5rem;
+            }
+
+        .contenedor-boton{
+            background-image: url('https://cdn.onlinewebfonts.com/svg/img_68580.png');
             height: 5rem;
             width: 5rem;
-        }
-
-        .texto-grande{
-            color: #F1E3E4;
-            margin: .1rem;
-
-            font-size: 5rem;
         }
 
 .footer{
