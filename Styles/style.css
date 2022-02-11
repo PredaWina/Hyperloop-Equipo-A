@@ -1,3 +1,80 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    background-color: #5C9EAD;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #332E3C;
+
+}
+
+.titulo{
+    margin-right: 1rem;
+    color: #D8D4F2;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .contendor-temperatura{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: fit-content;
+        padding: 10rem 20rem;
+
+        border-radius: 2rem;
+
+        background-color: #332E3C;
+    }
+        .contendor-temperatura-imagen{
+            height: 5rem;
+            width: 5rem;
+        }
+
+        .texto-grande{
+            color: #5C9EAD;
+            margin: .1rem;
+
+            font-size: 5rem;
+        }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #232029;
+}
+
+    .texto-footer{
+        color: #777588bb;
+
+        margin-bottom: .1rem;
+        font-size: .7rem;
+    }
+    .texto-footer:last-of-type{
+        margin-bottom: 0;
+    }
