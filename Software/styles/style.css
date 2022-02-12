@@ -28,20 +28,21 @@ body{
 }
     .titulo{
         margin-right: 1rem;
-        color: #F1E3E4;
+        color: whitesmoke;
         
     }
 
 .main{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    
+    justify-content: space-between;
     align-items: center;
 
-    /* background-color: rebeccapurple; */
-    /* background-image: url('https://pbs.twimg.com/profile_banners/4354036697/1604884054/1500x500');
+    background-color: black;
+    background-image: url('../img/logo_hyperloopUPV.jpg');
     background-repeat: no-repeat;
-    background-size:contain; */
+    background-size: contain;
+    background-position: center;
     height: 100%;
 }
     .contendor-temperatura{
@@ -50,42 +51,47 @@ body{
         justify-content:space-evenly;
         align-items: center;
 
-        height: 30rem;
-        width: 70rem;
-        /* padding: 10rem 20rem; */
-
-        border-radius: 2rem;
+        height: 70%;
+        width: 30%;
+        
+        border-radius: 0 2rem 2rem 0;
 
         background-color: #1C1D21;
-        /* background-color: transparent; */
     }
         .contenedor-temperatura-texto{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-around;
+            align-content: space-around;
 
-            /* padding: 5rem; */
-           /* margin-bottom: 5rem; */
-           margin-top: 8rem;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Serif', sans-serif;
+
+            width: 75%;
+            margin-top: 0;
         }
             .contendor-temperatura-imagen{
                 height: 5rem;
                 width: 5rem;
             }
-
-            .texto-grande{
-                color: #F1E3E4;
-                margin: .1rem;
-
-                font-size: 5rem;
+            .subcontenedor-texto{
+                display: flex;
+               
+                justify-content: space-between;
+                align-items: center;
             }
+                #texto-temp{
+                    font-size: 4rem;
+                    margin-right: 1rem;
+                }
+                .texto-grande{
+                    color: whitesmoke;
+                    margin: .1rem;
 
+                    font-size: 3rem;
+                }
         .contenedor-boton{
-            
             height: 5rem;
             width: 5rem;
-            
-        
         }
 
 .footer{
@@ -98,7 +104,6 @@ body{
 
     background-color: #1C1D21;
 }
-
     .texto-footer{
         color: #a0959685;
 
