@@ -26,10 +26,9 @@ $(document).ready(function(){
 });
 
 function contador(){
-   var contador = document.getElementById("texto-temp");
    cont = cont.toFixed(4);
-
-	contador.textContent = cont;
+   
+	$("#texto-temp").html(cont);
 
 	cont = parseFloat(cont) + 0.0001 ;
 }
