@@ -1,9 +1,9 @@
 # Hyperloop-Equipo-A
 
-### Github del equipo A del training center.
 
 
-**Miembros del equipo**
+
+ ## **Miembros del equipo**
 
 
 
@@ -17,3 +17,8 @@
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+
+
+## **Hardware**
+
+El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsbzrrjmvn).
