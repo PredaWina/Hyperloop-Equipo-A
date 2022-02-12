@@ -10,7 +10,7 @@
 |   Rama   |          Name          |         Email          |
 | :------: | :--------------------: | :--------------------: |
 | Software | Pablo González Segarra | pablogscraft@gmail.com |
-|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+| Hardware |  Stefan Iosif Costea   | stefanxenadu@gmail.com |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
