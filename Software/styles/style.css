@@ -9,7 +9,11 @@ body{
     justify-content: space-between;
 
     height: 100vh;
-    background-color: rgba(110, 151, 160, 0.466);
+    background-color: rgba(126, 154, 160, 0.466);
+
+    
+    
+    
 }
 
 .header{
@@ -33,6 +37,12 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    /* background-color: rebeccapurple; */
+    /* background-image: url('https://pbs.twimg.com/profile_banners/4354036697/1604884054/1500x500');
+    background-repeat: no-repeat;
+    background-size:contain; */
+    height: 100%;
 }
     .contendor-temperatura{
         display: flex;
@@ -47,6 +57,7 @@ body{
         border-radius: 2rem;
 
         background-color: #1C1D21;
+        /* background-color: transparent; */
     }
         .contenedor-temperatura-texto{
             display: flex;
@@ -70,7 +81,7 @@ body{
             }
 
         .contenedor-boton{
-            background-image: url('https://cdn.onlinewebfonts.com/svg/img_68580.png');
+            
             height: 5rem;
             width: 5rem;
             
