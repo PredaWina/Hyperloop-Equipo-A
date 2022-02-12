@@ -5,7 +5,15 @@
 
 **Miembros del equipo**
 
-|Software|Firmware|Hardwware|
-|Name|Email|Address|Name|Email|Address|Name|Email|Address|          
-|----|-----|-------|----|-----|-------|----|-----|-------|        
-|John|john@example.com|Address1|
+
+
+|Rama |Name|Email          
+|:-----:|:----:|:-----:     
+|Software|Pablo González Segarra| pablogscraft@gmail.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
+|TuRama|TuNombre|TuCorreo@ejemplo.com
