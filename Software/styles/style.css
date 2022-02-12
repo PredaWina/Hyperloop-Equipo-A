@@ -49,22 +49,24 @@ body{
         display: flex;
         flex-direction: column;
         justify-content:space-evenly;
-        align-items: center;
+        align-items:flex-start;
 
-        /* height: 70%;
-        width: 30%;
-         */
         padding-top: 5rem;
-        margin-left: 10vw;
-        /* background-color: red; */
+        margin-left: 5vw;
+        width: 50%;
+        /* background-color: green; */
+        
     }
         .contenedor-temperatura-texto{
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start;
+            
             align-items: center;
 
-            width: 50%;
+            width:100%;
             margin-top: 1rem;
+
+            /* background-color: blue; */
         }
             .contendor-temperatura-imagen{
                 height: 3rem;
@@ -74,8 +76,12 @@ body{
             .subcontenedor-texto{
                 display: flex;
                
-                justify-content: space-between;
+                justify-content: flex-start;
                 align-items: center;
+
+                width: 100%;
+                
+                /* background-color: red; */
             }
                 #texto-temp{
                     font-size: 3rem;
@@ -96,6 +102,7 @@ body{
         width: 5rem;
 
         margin-top: 2rem;
+        margin-left: 6rem;
     }
     .contenedor-imagen-esquemas{
         height: 55%;
