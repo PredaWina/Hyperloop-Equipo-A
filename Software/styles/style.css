@@ -61,14 +61,14 @@ body{
         .contenedor-temperatura-texto{
             display: flex;
             justify-content: space-around;
-            align-content: space-around;
+            align-items: center;
 
             width: 50%;
             margin-top: 1rem;
         }
             .contendor-temperatura-imagen{
-                height: 4rem;
-                width: 4rem;
+                height: 3.5rem;
+                width: 3.5rem;
                 margin-right: 1rem;
             }
             .subcontenedor-texto{
@@ -98,7 +98,7 @@ body{
         margin-top: 2rem;
     }
     .contenedor-imagen-esquemas{
-        height: 60%;
+        height: 55%;
 
         margin-right: 2rem;
     }
