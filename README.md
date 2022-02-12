@@ -1,5 +1,4 @@
 # Hyperloop-Equipo-A
 
-Github del equipo A del training center.
+## Github del equipo A del training center.
 
-!daw 
