@@ -7,13 +7,13 @@
 
 
 
-|Rama |Name|Email          
-|:-----:|:----:|:-----:     
-|Software|Pablo González Segarra| pablogscraft@gmail.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
-|TuRama|TuNombre|TuCorreo@ejemplo.com
+|   Rama   |          Name          |         Email          |
+| :------: | :--------------------: | :--------------------: |
+| Software | Pablo González Segarra | pablogscraft@gmail.com |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
