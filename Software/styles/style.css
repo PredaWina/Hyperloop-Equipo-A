@@ -67,8 +67,9 @@ body{
             margin-top: 1rem;
         }
             .contendor-temperatura-imagen{
-                height: 5rem;
-                width: 5rem;
+                height: 4rem;
+                width: 4rem;
+                margin-right: 1rem;
             }
             .subcontenedor-texto{
                 display: flex;
@@ -85,6 +86,8 @@ body{
                     font-family: 'Roboto Serif', sans-serif; */
                     color: whitesmoke;
                     margin: .1rem;
+
+                    font-weight: 100;
 
                     font-size: 2rem;
                 }
