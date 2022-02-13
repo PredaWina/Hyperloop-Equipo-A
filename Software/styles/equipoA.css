@@ -13,37 +13,40 @@
     height: 100%;
 }
 
+/* No funciona como esperaba. Buscando solucion... */
+/* 
 @keyframes rebotar {
     0% {
         top: 0px;
     }
     3%{
-        top: -3px;
+        top: -4px;
     }
     6%{
         top: 0px;
     }
     9%{
-        top: -3px;
+        top: -4px;
     }
     12%, 100% {
         top: 0px;
     }
 
-}
-.contenedor-contenido {
-    position: relative;
-    height: 40vh;
-    width: 40vh;
-
-    
-}
+} 
 #sensores{
     animation-name: rebotar;
     animation-duration: 6s;  
     animation-delay: 15s;
     animation-iteration-count: 10;
+} */
+.contenedor-contenido {
+    position: relative;
+    height: 40vh;
+    width: 40vh;
+
+
 }
+
 
 @keyframes blurIn {
     0% {
