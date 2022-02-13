@@ -33,7 +33,7 @@ function contador() {
 
    $("#texto-temp").html(cont);
 
-   cont = parseFloat(cont) + 0.0001;
+   cont = parseFloat(cont) + 0.01;
 }
 
 async function getText(file) {
