@@ -37,7 +37,11 @@ body {
     color: whitesmoke;
 }
 .main {
-  
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
     background-color: black;
     background-image: url('../img/logo_hyperloopUPV.jpg');
     background-repeat: no-repeat;
