@@ -1,6 +1,6 @@
 var id;
 var cont = 0.0;
-const decimales = 4;
+const decimales = 2;
 var aux;
 $(document).ready(function () {
    $("#boton-datos").click(function () {

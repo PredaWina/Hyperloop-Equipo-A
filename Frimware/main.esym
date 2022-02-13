@@ -1,0 +1,34 @@
+D G "__PCM__" 2 60 ""5.076""
+D G "__DEVICE__" 2 60 ""
+D G "__DATE__" 2 60 ""13-feb.-22""
+D G "__TIME__" 2 60 ""21:18:56""
+D G "_UNICODE" 2 60 ""?""
+D G "__EVAL" 2 60 ""?"" "(C) Copyright 1996,2003 Custom Computer Services           ////"
+D G "_STDIO" 1 12 ""
+D G "_STRING" 2 12 ""
+D G "_STDDEF" 3 13 ""
+D G "ptrdiff_t" 3 18 "unsigned int16"
+D G "size_t" 3 22 "unsigned int8"
+D G "wchar_t" 3 26 "char"
+D G "NULL" 3 27 "0"
+D G "offsetof" 3 29 "(s,f) (offsetofbit(s,f)/8)"
+D G "_CTYPE" 4 12 ""
+D G "islower" 4 14 "(x)  isamong(x,"abcdefghijklmnopqrstuvwxyz")"
+D G "isupper" 4 15 "(x)  isamong(x,"ABCDEFGHIJKLMNOPQRSTUVWXYZ")"
+D G "isalnum" 4 16 "(x)  isamong(x,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")"
+D G "isalpha" 4 17 "(x)  isamong(x,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")"
+D G "isdigit" 4 18 "(x)  isamong(x,"0123456789")"
+D G "isspace" 4 19 "(x)  ((x)==' ')"
+D G "isxdigit" 4 20 "(x) isamong(x,"0123456789ABCDEFabcdef")"
+D G "iscntrl" 4 21 "(x)  ((x)<' ')"
+D G "isprint" 4 22 "(x)  ((x)>=' ')"
+D G "isgraph" 4 23 "(x)  ((x)>' ')"
+D G "ispunct" 4 24 "(x)  (((x)>' ')&&!isalnum(x))"
+F N "memmove" 2 33 ""
+V L "s1" 2 33 "*void" `36 
+V L "s2" 2 33 "*void" `37 
+V L "n" 2 33 "int8" `38 
+F G "memmove" 2 34 "*int8(*void s1,*void s2,int8 n)" `35 
+V L "sc1" 2 35 "*int8" `39 
+V L "sc2" 2 36 "*int8" `40 
+D G "strcopy" 2 53 "strcpy"
