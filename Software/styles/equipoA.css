@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: black;
+    background-image: url('../img/logo_hyperloopUPV.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    height: 100%;
+}
+
+.contenedor-contenido {
+    height: 40vh;
+    width: 40vh;
+
+
+}
+
+@keyframes blurIn {
+    0% {
+        filter: brightness(100%);
+    }
+
+    100% {
+        filter: brightness(90%);
+    }
+
+}
+
+.contenedor-contenido:hover {
+    position: relative;
+    cursor: pointer;
+
+    animation-name: blurIn;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-duration: 500ms;
+
+    top: -5px;
+}
+
+.contenedor-image {
+    z-index: 1;
+    background-image: url("../img/Esquematico\ PIC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+
+    border-radius: 100%;
+}
+
+#contenedor-sensores {
+    background-image: url("../img/software.png");
+}
+
+#contenedor-hardware {
+    background-image: url("../img/Esquematico\ PIC.jpg");
+}
+
+.nombre-contenedor {
+    z-index: 0;
+    position: relative;
+    top: -50%;
+    left: 25%;
+    transform: translate(0%, -50%);
+
+    color: black;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px rgb(149, 110, 201);
+
+}
