@@ -1,22 +1,18 @@
-*{
+* {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     height: 100vh;
     background-color: rgba(126, 154, 160, 0.466);
-
-    
-    
-    
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,17 +20,16 @@ body{
     padding: 1rem;
 
     background-color: #1C1D21;
-
 }
-    .titulo{
-        margin-right: 1rem;
-        color: whitesmoke;
-        
-    }
 
-.main{
+.titulo {
+    margin-right: 1rem;
+    color: whitesmoke;
+}
+
+.main {
     display: flex;
-    
+
     justify-content: space-between;
     align-items: center;
 
@@ -45,77 +40,78 @@ body{
     background-position: center;
     height: 100%;
 }
-    .contendor-temperatura{
-        display: flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-        align-items:flex-start;
 
-        padding-top: 5rem;
-        margin-left: 10vw;
-        width: 50%;
-        /* background-color: green; */
-        
-    }
-        .contenedor-temperatura-texto{
-            display: flex;
-            justify-content: flex-start;
-            
-            align-items: center;
+.contendor-temperatura {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 
-            width:100%;
-            margin-top: 1rem;
+    padding-top: 5rem;
+    margin-left: 10vw;
+    width: 50%;
+}
 
-            /* background-color: blue; */
-        }
-            .contendor-temperatura-imagen{
-                height: 3rem;
-                width: 3rem;
-                margin-right: 1rem;
-            }
-            .subcontenedor-texto{
-                display: flex;
-               
-                justify-content: flex-start;
-                align-items: center;
+.contenedor-temperatura-texto {
+    display: flex;
+    justify-content: flex-start;
 
-                width: 100%;
-                
-                /* background-color: red; */
-            }
-                #texto-temp{
-                    font-size: 3rem;
-                    margin-right: 1rem;
-                }
-                .texto-grande{
-                    /* font-family: 'Roboto', sans-serif;
-                    font-family: 'Roboto Serif', sans-serif; */
-                    color: whitesmoke;
-                    margin: .1rem;
+    align-items: center;
 
-                    font-weight: 100;
+    width: 100%;
+    margin-top: 1rem;
+}
 
-                    font-size: 2rem;
-                }
-    .contenedor-boton{
-        height: 5rem;
-        width: 5rem;
+.contendor-temperatura-imagen {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
 
-        margin-top: 2rem;
-        margin-left: 6rem;
-    }
-    .contenedor-imagen-esquemas{
-        height: 55%;
+.subcontenedor-texto {
+    display: flex;
 
-        margin-right: 2rem;
-    }
-        .imagen-esquema{
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
-        }
-       
-.footer{
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+}
+
+#texto-temp {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.texto-grande {
+    color: whitesmoke;
+    margin: .1rem;
+
+    font-weight: 100;
+
+    font-size: 2rem;
+}
+
+.contenedor-boton {
+    height: 5rem;
+    width: 5rem;
+
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.contenedor-imagen-esquemas {
+    height: 55%;
+
+    margin-right: 2rem;
+}
+
+.imagen-esquema {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -125,12 +121,14 @@ body{
 
     background-color: #1C1D21;
 }
-    .texto-footer{
-        color: #a0959685;
 
-        margin-bottom: .1rem;
-        font-size: .7rem;
-    }
-    .texto-footer:last-of-type{
-        margin-bottom: 0;
-    }
+.texto-footer {
+    color: #a0959685;
+
+    margin-bottom: .1rem;
+    font-size: .7rem;
+}
+
+.texto-footer:last-of-type {
+    margin-bottom: 0;
+}
