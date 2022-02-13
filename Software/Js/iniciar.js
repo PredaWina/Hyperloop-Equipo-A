@@ -16,20 +16,23 @@ function toggleRead() {
       $("#boton-datos").attr("src", "img/pause.png");
       act = false;
 
+      //Provar fetch
       getText("https://rickandmortyapi.com/api/character");
+
+      //Provar
       id = setInterval('contador()', 25);
    }
    else {
       $("#boton-datos").attr("src", "img/play.png");
       act = true;
 
-
+      //Provar
       clearInterval(id);
    }
 }
 
 
-
+// Funcion solo para provar
 function contador(){
    cont = cont.toFixed(decimales);
    
