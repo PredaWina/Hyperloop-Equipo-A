@@ -79,6 +79,7 @@
     background-position: center;
 
     height: 100%;
+    
     filter: blur(.5px);
     border-radius: 1rem;
     
@@ -89,19 +90,19 @@
 }
 
 #contenedor-hardware {
-    background-image: url("../img/Esquematico\ PIC.jpg");
+    background-image: url("../img/h1.jpg");
 }
 
 .nombre-contenedor {
     z-index: 0;
     position: relative;
     top: -50%;
-    left: 25%;
+    left: 18%;
     transform: translate(0%, -50%);
 
-    color: black;
+    color: white;
     font-size: 5vh;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 2px 2px rgb(149, 110, 201);
+    /* text-shadow: 2px 2px rgb(149, 110, 201); */
 
 }

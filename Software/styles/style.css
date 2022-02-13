@@ -60,7 +60,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem;
+    padding: .5rem;
     
     background-color: white;
 }
@@ -69,7 +69,7 @@ body {
     color: rgba(0, 0, 0, 0.651);
 
     margin-bottom: .1rem;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 .texto-footer:last-of-type {
