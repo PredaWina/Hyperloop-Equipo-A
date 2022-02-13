@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipo A</title>
-    <link rel="shortcut icon" href="img/logo.ico"/>
+    <title>Equipo A / Sensores</title>
+    <link rel="shortcut icon" href="img/logo.ico" />
 
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/sensores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -20,30 +23,50 @@
 
 <body>
     <header class="header">
-        
+
         <a class="header-texto" href="index.html">
             <h1 class="titulo">
                 Hyperloop UPV
             </h1>
             <h2 class="titulo">
-                Equipo A
+                Sensores
             </h2>
         </a>
-        
+
     </header>
 
     <main class="main">
 
-        <!-- <section class="contendor-temperatura"></section>
+        <section class="contendor-temperatura">
+            <div class="contenedor-temperatura-texto">
+                <img class="contendor-temperatura-imagen" src="img/tempActual.png" alt="termometro">
+                <div class="subcontenedor-texto">
+                    <p id="texto-temp" class="texto-grande"> 0.0000</p>
+                    <p class="texto-grande"> Cº</p>
+                </div>
 
-        <div class="contenedor-temperatura-texto">
-            <img class="contendor-temperatura-imagen" src="img/tempActual.png" alt="termometro">
-            <div class="subcontenedor-texto">
-                <p id="texto-temp" class="texto-grande"> 0.0000</p>
-                <p class="texto-grande"> Cº</p>
             </div>
-        
-        </div> -->
+            <div class="contenedor-temperatura-texto">
+                <img class="contendor-temperatura-imagen" src="img/tempActual.png" alt="termometro">
+                <div class="subcontenedor-texto">
+                    <p id="texto-temp" class="texto-grande"> 0.0000</p>
+                    <p class="texto-grande"> Cº</p>
+                </div>
+
+            </div>
+            <div class="contenedor-temperatura-texto">
+                <img class="contendor-temperatura-imagen" src="img/tempActual.png" alt="termometro">
+                <div class="subcontenedor-texto">
+                    <p id="texto-temp" class="texto-grande"> 0.0000</p>
+                    <p class="texto-grande"> Cº</p>
+                </div>
+
+            </div>
+
+            <input id="boton-datos" class="contenedor-boton" type="image" src="img/play.png" alt="">
+        </section>
+
+
 
     </main>
 

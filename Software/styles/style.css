@@ -19,8 +19,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    width: 100%;
+    /* position:fixed; */
+    /* wi7dth: 100%; */
     padding: 1rem;
     
 
@@ -52,7 +52,7 @@ body {
     background-size: contain;
     background-position: center;
 
-    /* height: 100%; */
+    
 }
 .footer {
     display: flex;

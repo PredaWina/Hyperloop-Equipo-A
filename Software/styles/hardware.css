@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
 
- 
+    
 }
 .contenedor-articulos{
     display: flex;
@@ -14,7 +14,7 @@
     align-items: center;
 
    
-    margin: 4rem;
+    margin: 2rem;
 }
 
 .articulo{
@@ -31,7 +31,9 @@
     background-color: rgba(17, 23, 31, 0.966);
    
 }
-
+.articulo:first-of-type{
+    margin-top: 0;
+}
 
 .articulo-imagen{
     /* margin: 1rem; */
