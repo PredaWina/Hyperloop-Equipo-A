@@ -12,7 +12,7 @@
 | Software | Pablo González Segarra | pablogscraft@gmail.com |
 | Hardware |  Stefan Iosif Costea   | stefanxenadu@gmail.com |
 |  Hardware |Raul Mestre Pascual        |  raulmestre1212@gmail.com  |
-|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+|  Hardware  |        Erik Gharibyan Avetisyan        |  erikbyan@hotmail.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
