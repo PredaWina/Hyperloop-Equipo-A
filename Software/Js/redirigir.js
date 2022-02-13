@@ -8,6 +8,7 @@ $(function(){
 
 $(function(){
     $("#hardware").on("click",function(){
+        
         window.location = "hardware.html";
     });
 })
