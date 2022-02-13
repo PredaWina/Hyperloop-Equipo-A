@@ -1,0 +1,106 @@
+.main {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: black;
+    background-image: url('../img/logo_hyperloopUPV.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    height: 100%;
+}
+
+/* No funciona como esperaba. Buscando solucion... */
+/* 
+@keyframes rebotar {
+    0% {
+        top: 0px;
+    }
+    3%{
+        top: -4px;
+    }
+    6%{
+        top: 0px;
+    }
+    9%{
+        top: -4px;
+    }
+    12%, 100% {
+        top: 0px;
+    }
+
+} 
+#sensores{
+    animation-name: rebotar;
+    animation-duration: 6s;  
+    animation-delay: 15s;
+    animation-iteration-count: 10;
+} */
+.contenedor-contenido {
+    position: relative;
+    height: 50vh;
+    width: 40vh;
+
+    border-radius: 100%;
+}
+
+
+@keyframes blurIn {
+    0% {
+        filter: brightness(100%);
+    }
+
+    100% {
+        filter: brightness(90%);
+    }
+
+}
+
+.contenedor-contenido:hover {
+    position: relative;
+    cursor: pointer;
+
+    animation-name: blurIn;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-duration: 500ms;
+
+    top: -15px;
+}
+
+.contenedor-image {
+    z-index: 1;
+    background-image: url("../img/Esquematico\ PIC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+    filter: blur(.5px);
+    
+}
+
+#contenedor-sensores {
+    background-image: url("../img/software.png");
+}
+
+#contenedor-hardware {
+    background-image: url("../img/Esquematico\ PIC.jpg");
+}
+
+.nombre-contenedor {
+    z-index: 0;
+    position: relative;
+    top: -50%;
+    left: 25%;
+    transform: translate(0%, -50%);
+
+    color: black;
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px rgb(149, 110, 201);
+
+}
