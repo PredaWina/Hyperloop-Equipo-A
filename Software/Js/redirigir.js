@@ -1,5 +1,4 @@
 
-
 $(function(){
     $("#sensores").on("click",function(){
         window.location = "sensores.html";
