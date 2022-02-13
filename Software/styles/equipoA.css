@@ -79,7 +79,7 @@
     background-position: center;
 
     height: 100%;
-
+    filter: blur(1px);
     border-radius: 100%;
 }
 
