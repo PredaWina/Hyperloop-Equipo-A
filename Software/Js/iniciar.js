@@ -21,5 +21,5 @@ function toggleRead() {
 async function getText(file) {
    fetch(file)
       .then((response) => response.json())
-      .then((json) => res = (json.results[0].name));
+      .then((json) => res = (json.temp));
 }

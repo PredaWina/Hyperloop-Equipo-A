@@ -1,11 +1,6 @@
 # Hyperloop-Equipo-A
 
-
-
-
  ## **Miembros del equipo**
-
-
 
 |   Rama   |          Name          |         Email          |
 | :------: | :--------------------: | :--------------------: |
@@ -28,5 +23,7 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
 - [x] Schematics
 - [ ] Firmware
 - [X] Software
+    - [ ] Funcion minimo
+    - [ ] Funcion maximo
 - [ ] Presupuesto
 - [ ] Documentación
