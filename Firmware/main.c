@@ -31,10 +31,10 @@ uint16_t ADC_read(uint8_t canal) // Funcion que se encarga de leer el ADC
 }
 uint8_t SPI_read(uint8_t dato) // Funcion que se encarga de leer/escribir el SPi
 {
-    uint8_t y;
+    uint8_t x;
     SSPBUF = dato; // guarda el dato en el registro buffer
-    while(SSPSTATbits.BF == 0){ //Mientras el buffer este vacio
-        y = SSPBUF; //guarda en y el buffer
+    while(SSPSTATbits.BF == 0){ //Mientras el buffer no este lleno
+        x = SSPBUF; //guarda en y el buffer
     }
 }
 void ADC_init(void) // Funcion que se encarga de la configuracion inicial del ADC
