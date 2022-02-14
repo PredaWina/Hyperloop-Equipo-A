@@ -27,8 +27,6 @@ function update(){
 
         console.log(res);
         mostrarDatos(res);
-        minimoR(res2);
-        maximoR(res2);
         
     }
 }
@@ -41,6 +39,8 @@ function obtenerTemp(res){
 // Funcion solo para provar
 function mostrarDatos(datos) {
     res2 = datos;
+    minimoR(res2);
+    maximoR(res2);
     datos = datos.toFixed(decimales);
     
     $("#texto-temp").html(String(datos).padStart(enteros + decimales + 1, "0"));
