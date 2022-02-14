@@ -26,7 +26,7 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
 
 ### TODO:
 - [x] Schematics
-- [ ] Firmware
-- [ ] Web
+- [-] Firmware
+- [X] Software
 - [ ] Presupuesto
 - [ ] Documentación
