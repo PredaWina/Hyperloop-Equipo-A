@@ -7,34 +7,42 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     background-color: black;
-    
+
     height: 100vh;
-    
 }
 
 .header {
-    
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* position:fixed; */
-    /* wi7dth: 100%; */
-    padding: 1rem;
-    
+
+    padding: 2rem;
 
     background-color: white;
 }
-.header-texto{
+
+.github-link {
+    display: flex;
+}
+
+.github {
+    height: 100%;
+    width: 4vh;
+    height: 4vh;
+}
+
+.header-texto {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
     text-decoration: none;
 }
-.header-texto:hover{
+
+.header-texto:hover {
     cursor: pointer;
 }
 
@@ -42,18 +50,18 @@ body {
     margin-right: 1rem;
     color: black;
     font-weight: 900;
-    font:bold;
-
+    font: bold;
 }
+
 .main {
     background-color: black;
     background-image: url('../img/logo_hyperloopUPV.jpg');
+
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
-    
 }
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -61,7 +69,7 @@ body {
     align-items: center;
 
     padding: .5rem;
-    
+
     background-color: white;
 }
 

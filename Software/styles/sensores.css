@@ -5,7 +5,7 @@
     align-items: center;
 
 
-    background-image: url('../img/logo_hyperloopUPV.jpg');
+    background-image: url('../img/logo_hyperloopUPVBlur.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -25,7 +25,7 @@
     /* padding-top: 5rem; */
     /* margin-left: 10vw; */
     /* width: 50%; */
-    height: 70%;
+    /* height: 70%; */
 
     /* background-color: aqua; */
 }
@@ -33,17 +33,17 @@
 .contenedor-temperatura-texto {
     display: flex;
     justify-content: center;
-
     align-items: center;
 
     width: 100%;
-    /* margin-top: 1rem; */
+    margin-top: .5rem;
     /* background-color: red; */
 }
 
 .contendor-temperatura-imagen {
-    height: 3rem;
+    /* height: 3rem; */
     width: 3rem;
+    /* margin:0.5rem; */
     margin-right: 1rem;
 }
 

@@ -1,6 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 7rem;
+}
+
+.header-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem;
+}
+
+#principal {
+    font-weight: 500;
+}
+
+.titulo {
+    font-weight: 300;
+}
+
+.github {
+    height: 100%;
+    width: 10vh;
+    height: 10vh;
+}
+
 .main {
     display: flex;
-
     justify-content: space-around;
     align-items: center;
 
@@ -10,69 +41,54 @@
     background-size: contain;
     background-position: center;
 
-    height: 100%;
+    min-height: 100vh;
 }
 
-/* No funciona como esperaba. Buscando solucion... */
-/* 
-@keyframes rebotar {
-    0% {
-        top: 0px;
-    }
-    3%{
-        top: -4px;
-    }
-    6%{
-        top: 0px;
-    }
-    9%{
-        top: -4px;
-    }
-    12%, 100% {
-        top: 0px;
-    }
-
-} 
-#sensores{
-    animation-name: rebotar;
-    animation-duration: 6s;  
-    animation-delay: 15s;
-    animation-iteration-count: 10;
-} */
 .contenedor-contenido {
     position: relative;
     height: 50vh;
     width: 40vh;
 
     border-radius: 100%;
-    
+    margin: 6rem 0rem 6rem 0rem;
 }
 
+@keyframes mover {
+
+    from {
+        top: 0px;
+        filter: brightness(100%);
+    }
+    to {
+        top: -15px;
+        filter: brightness(150%);
+    }
+}
 
 .contenedor-contenido:hover {
     position: relative;
     cursor: pointer;
-    
-    top: -15px;
+
+    animation: mover;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
 }
 
 .contenedor-image {
-    z-index: 1;
     background-image: url("../img/Esquematico\ PIC.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
     height: 100%;
-    
+
     filter: blur(.5px) brightness(50%);
-    
+
     border-radius: 1rem;
-    
 }
 
 #contenedor-sensores {
-    background-image: url("../img/software.png");
+    background-image: url("../img/softwareComp.jpg");
 }
 
 #contenedor-hardware {
@@ -89,6 +105,5 @@
     color: white;
     font-size: 5vh;
     font-family: 'Roboto', sans-serif;
-    /* text-shadow: 2px 2px rgb(149, 110, 201); */
-
+    font-weight: 200;
 }
