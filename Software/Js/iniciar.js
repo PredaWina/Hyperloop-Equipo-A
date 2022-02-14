@@ -13,7 +13,6 @@ function toggleRead() {
    } else {
       $("#boton-datos").attr("src", "img/play.png");
       read = false;
-
    }
 }
 

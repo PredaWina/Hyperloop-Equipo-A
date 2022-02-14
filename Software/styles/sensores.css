@@ -17,6 +17,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* background-color: red; */
 }
 
 .contenedor-temperatura-texto {
@@ -26,6 +28,8 @@
 
     width: 100%;
     margin-top: .5rem;
+
+    /* background-color: green; */
 }
 
 .contendor-temperatura-imagen {
@@ -40,6 +44,8 @@
     align-items: center;
 
     width: 100%;
+
+    /* background-color: blue; */
 }
 
 #texto-temp {
@@ -61,16 +67,12 @@
     width: 5rem;
 
     margin-top: 2rem;
+
+    /* background-color: pink; */
 }
 
 .contenedor-imagen-esquemas {
     height: 55%;
 
     margin-right: 2rem;
-}
-
-.imagen-esquema {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
 }

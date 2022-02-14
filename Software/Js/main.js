@@ -1,6 +1,6 @@
 $(document).ready(function () {
     main();
-    console.log("dasd");
+    // console.log("dasd");
     
 });
 
@@ -10,10 +10,10 @@ const decimales = 2;
 var read;
 var url = "?";
 var updateRate = 10; // en milisegundos
-var res = 0;
+var res = 2;
 
 function main(){
-    setInterval("update()", updateRate);
+    id = setInterval("update()", updateRate);
 }
  
 function update(){
@@ -30,12 +30,12 @@ function update(){
 
 function obtenerTemp(res){
 
-    return res + "operacion";
+    return res;
 }
 
 // Funcion solo para provar
 function mostrarDatos(datos) {
     datos = datos.toFixed(decimales);
     
-    $("#texto-temp").html(String(datos).padStart(enteros + 3, "0"));
+    $("#texto-temp").html(String(datos).padStart(enteros + decimales + 1, "0"));
 }
