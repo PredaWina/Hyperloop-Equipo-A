@@ -33,9 +33,9 @@ uint8_t SPI_read(uint8_t dato) // Funcion que se encarga de leer/escribir el SPi
 {
     uint8_t x;
     SSPBUF = dato; // guarda el dato en el registro buffer
-    while(SSPSTATbits.BF == 0){ //Mientras el buffer no este lleno
-        x = SSPBUF; //guarda en x el buffer
-    }
+    while(SSPSTATbits.BF == 0); //Hasta que el buffer no este lleno nada
+    x = SSPBUF; //guarda en x el buffer
+    return x;
 }
 void ADC_init(void) // Funcion que se encarga de la configuracion inicial del ADC
 {
