@@ -6,10 +6,10 @@
 | :------: | :--------------------: | :--------------------: |
 | Software | Pablo González Segarra | pablogscraft@gmail.com |
 | Hardware |  Stefan Iosif Costea   | stefanxenadu@gmail.com |
-|  Hardware |Raul Mestre Pascual        |  raulmestre1212@gmail.com  |
-|  Hardware  |        Erik Gharibyan Avetisyan        |  erikbyan@hotmail.com  |
+| Hardware |  Raul Mestre Pascual   |raulmestre1212@gmail.com|
+| Hardware |Erik Gharibyan Avetisyan|  erikbyan@hotmail.com  |
 | Software | Manel Ramirez Nicolau  |manelramirezn@gmail.com |
-|  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
+| Software |  Pablo Gonzálbez Cabo  | gonca.pablo@gmail.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 |  TuRama  |        TuNombre        |  TuCorreo@ejemplo.com  |
 
