@@ -49,7 +49,6 @@
     position: relative;
     height: 50vh;
     width: 40vh;
-
     margin: 6rem 0rem 6rem 0rem;
 }
 
@@ -101,6 +100,8 @@
     top: -50%;
     left: 18%;
     transform: translate(0%, -50%);
+
+    width: fit-content;
 
     color: white;
     font-size: 5vh;
