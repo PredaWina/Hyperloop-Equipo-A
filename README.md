@@ -21,7 +21,7 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
 
 ### TODO:
 - [x] Schematics
-- [ ] Firmware
+- [X] Firmware
 - [X] Software
     - [x] Funcion minimo
     - [x] Funcion maximo
