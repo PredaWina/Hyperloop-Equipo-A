@@ -16,4 +16,9 @@
 6. Amplificador Operacional LM1458MX/NOPB Texas Instruments -- 1,08 €/ud x 1 ud --
 [link](https://www.mouser.es/ProductDetail/Texas-Instruments/LM1458MX-NOPB?qs=X1J7HmVL2ZEdp3OcgROSyw%3D%3D)
 
-7.
+7. Condensador 33 pF GRM21A5C2J330FWA1D Murata Electronics (Cristal) -- 0,35 €/ud x 2 uds -- 0,70 € total --
+[link](https://www.mouser.es/ProductDetail/Murata-Electronics/GRM21A5C2J330FWA1D?qs=sGAEpiMZZMsh%252B1woXyUXjw6NjsBEUinDAFNEL8CvHuU%3D)
+ Condensador 15 nF C0805C153K5GECTU Kemet (Filtro RC) -- 0,31 €/ud x 1 ud --
+[link](https://www.mouser.es/ProductDetail/KEMET/C0805C153K5GECTU?qs=sGAEpiMZZMsh%252B1woXyUXj6NiChfwzFayNAT2w2rMMzY%3D)
+ Condensador 0,1 uF C0805X104M5RACTU Kemet (Alimentación) -- 0,42 €/ud x 1 ud --
+[link](https://www.mouser.es/ProductDetail/KEMET/C0805X104M5RACTU?qs=1xOl%2F8aMGNq7VJopyoJi7Q%3D%3D)
