@@ -10,9 +10,10 @@
 4. Botón interruptor Schurter -- 0,43 €/ud x 1 ud --
 [link](https://www.mouser.es/ProductDetail/Schurter/1301931424?qs=GIi83qBHgilkrMwKiiKACQ%3D%3D&mgh=1&vip=1&gclid=Cj0KCQiAu62QBhC7ARIsALXijXSUUMyjvqhzy5qK-pRrcAS0nCTLDvpNms5FvR8FubSB-2lUTFsvWGsaAiBoEALw_wcB)
 
-5. LED rojo Cree LED -- 0,15 €/ud x 4 uds -- 0,6 € total -- 
-[link](https://www.mouser.es/ProductDetail/Cree-LED/C5SMF-RJF-CT0W0BB2?qs=vnbNJPHmPnMRCSh39bwmBg%3D%3D&mgh=1&vip=1&gclid=Cj0KCQiAu62QBhC7ARIsALXijXQh0JEGMa4o77usi-pO5rnKRCRAMWFxSDPcBf-M01eS4lv0EaZR8BEaAvlDEALw_wcB)
+5. LED rojo Cree LED CLM2D-RCC-CZ0C0BB3 -- 0,14 €/ud x 4 uds -- 0,56 € total -- 
+[link](https://www.mouser.es/ProductDetail/Cree-LED/CLM2D-RCC-CZ0C0BB3?qs=sGAEpiMZZMvyj6n1w4pZDz9nvxQ%2FaIylQBE4vpEhHFqpGtm4vcGdVA%3D%3D)
 
 6. Amplificador Operacional LM1458MX/NOPB Texas Instruments -- 1,08 €/ud x 1 ud --
 [link](https://www.mouser.es/ProductDetail/Texas-Instruments/LM1458MX-NOPB?qs=X1J7HmVL2ZEdp3OcgROSyw%3D%3D)
 
+7.
