@@ -1,0 +1,42 @@
+
+<main class="main">
+    <section class="contenedor-articulos">
+        <section class="articulo">
+            <img class="articulo-imagen" src="img/esquemaInvertido.png" alt="">
+
+            <div class="articulo-contenedor-texto">
+                <h3 class="articulo-titulo">
+                    Schematics
+                </h3>
+                <p class="articulo-texto">
+                    texto1
+                </p>
+            </div>
+        </section>
+
+        <section class="articulo">
+            <div class="articulo-contenedor-texto">
+                <h3 class="articulo-titulo">
+                    Schematics
+                    </h4>
+                    <p class="articulo-texto">
+                        texto2
+                    </p>
+            </div>
+            <img class="articulo-imagen" src="img/Esquematico PIC.jpg" alt="">
+        </section>
+
+        <section class="articulo">
+            <img class="articulo-imagen" src="img/datos.png" alt="">
+            <div class="articulo-contenedor-texto">
+                <h3 class="articulo-titulo">
+                    Matrix
+                    </h4>
+                    <p class="articulo-texto">
+                        texto3
+                    </p>
+            </div>
+            
+        </section>
+    </section>
+</main>

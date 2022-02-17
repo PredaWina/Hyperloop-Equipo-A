@@ -58,14 +58,6 @@ body {
     font: bold;
 }
 
-.main {
-    background-color: black;
-    background-image: url('../img/logo_hyperloopUPV.jpg');
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 
 .footer {
     display: flex;

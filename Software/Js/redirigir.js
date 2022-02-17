@@ -6,8 +6,8 @@ $(function(){
 })
 
 $(function(){
-    $("#hardware").on("click",function(){
+    $("#nosotros").on("click",function(){
         
-        window.location = "hardware.html";
+        window.location = "nosotros.html";
     });
 })

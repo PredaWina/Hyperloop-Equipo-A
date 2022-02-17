@@ -1,48 +1,19 @@
-.header {
+
+.main{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-
-    font-size: 3.5rem;
-}
-
-.header-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
-    padding: 3rem;
     
 }
-
-#principal {
-    font-weight: 500;
-}
-
-.titulo {
-    font-weight: 300;
-}
-
-.github {
-    height: 100%;
-    width: 10vh;
-    height: 10vh;
-}
-
-.main {
+.contenedor-articulos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
-    background-color: black;
-    background-image: url('../img/logo_hyperloopUPV.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
-    min-height: 100vh;
+   
+    margin: 2rem;
 }
 
 .contenedor-contenido {
@@ -52,17 +23,6 @@
     margin: 6rem 0rem 6rem 0rem;
 }
 
-@keyframes mover {
-   
-    from {
-        top: 0px;
-        filter: brightness(100%);
-    }
-    to {
-        top: -15px;
-        filter: brightness(150%);
-    }
-}
 
 .contenedor-contenido:hover {
     cursor:pointer;
@@ -86,12 +46,16 @@
     border-radius: 1rem;
 }
 
-#contenedor-sensores {
+#contenedor-firmware{
+    background-image: url("../img/softwareComp.jpg");
+}
+
+#contenedor-software {
     background-image: url("../img/softwareComp.jpg");
 }
 
 #contenedor-hardware {
-    background-image: url("../img/NOSOTROS3.jpg");
+    background-image: url("../img/Esquematico PIC.jpg");
 }
 
 .nombre-contenedor {
@@ -106,4 +70,11 @@
     color: white;
     font-size: 5vh;
     font-weight: 200;
+}
+
+.main {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
