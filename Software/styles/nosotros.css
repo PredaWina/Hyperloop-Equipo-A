@@ -7,6 +7,7 @@
 
     
 }
+
 .contenedor-articulos{
     display: flex;
     justify-content: center;
@@ -16,13 +17,25 @@
     margin: 2rem;
 }
 
-.contenedor-contenido {
+.imagen-medio {
+    position: relative;
+    height: 50vh;
+    width: 70vh;
+}
+
+.contenedor-contenido2 {
     position: relative;
     height: 50vh;
     width: 40vh;
     margin: 6rem 0rem 6rem 0rem;
 }
 
+.contenedor-contenido {
+    position: relative;
+    height: 50vh;
+    width: 40vh;
+    margin: 6rem 0rem 6rem 0rem;
+}
 
 .contenedor-contenido:hover {
     cursor:pointer;
