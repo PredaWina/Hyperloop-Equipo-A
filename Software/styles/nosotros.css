@@ -5,36 +5,56 @@
     justify-content: center;
     align-items: center;
 
-    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
+
 .contenedor-articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 2rem;
+
+    background-color: red;
+}
+
+
+.contenedor-general{
     display: flex;
     justify-content: center;
     align-items: center;
 
-   
-    margin: 2rem;
+    background-color:yellow;
 }
-
 .imagen-medio {
     position: relative;
     height: 50vh;
     width: 70vh;
 }
 
-.contenedor-contenido2 {
-    position: relative;
-    height: 50vh;
-    width: 40vh;
-    margin: 6rem 0rem 6rem 0rem;
-}
-
 .contenedor-contenido {
     position: relative;
-    height: 50vh;
-    width: 40vh;
+    height: 40vh;
+    width: 30vh;
     margin: 6rem 0rem 6rem 0rem;
+
+    background-color: blue;
+}
+@keyframes mover {
+   
+    from {
+        top: 0px;
+        filter: brightness(100%);
+    }
+    to {
+        top: -15px;
+        filter: brightness(150%);
+    }
 }
 
 .contenedor-contenido:hover {
@@ -57,10 +77,12 @@
     filter: blur(0.5px) brightness(50%);
 
     border-radius: 1rem;
+
+    background-color: green;
 }
 
 #contenedor-firmware{
-    background-image: url("../img/softwareComp.jpg");
+    background-image: url("../img/datos.png");
 }
 
 #contenedor-software {
@@ -85,9 +107,3 @@
     font-weight: 200;
 }
 
-.main {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
