@@ -71,7 +71,7 @@
     }
     to {
         top: -15px;
-        filter: brightness(150%);
+        filter: brightness(130%);
     }
 }
 
@@ -92,7 +92,7 @@
 
     height: 100%;
 
-    filter: blur(0.5px) brightness(50%);
+    filter: blur(0.5px) brightness(70%);
 
     border-radius: 1rem;
 
@@ -100,15 +100,16 @@
 }
 
 #contenedor-software {
-    background-image: url("../img/softwareCodigo.png");
+    background-image: url("../img/softwareMorado.png");
     
 }
 #contenedor-firmware{
-    background-image: url("../img/softwareCompInvertido.jpg");
+    background-image: url("../img/firmwareAzul.jpg");
+    
 }
 
 #contenedor-hardware {
-    background-image: url("../img/Esquematico PIC.jpg");
+    background-image: url("../img/h1.jpg");
 }
 
 .nombre-contenedor {
