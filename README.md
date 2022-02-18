@@ -26,5 +26,5 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
     - [x] Funcion minimo
     - [x] Funcion maximo
     - [ ] Mejoras en el diseño
-- [ ] Presupuesto
+- [X] Presupuesto
 - [ ] Documentación
