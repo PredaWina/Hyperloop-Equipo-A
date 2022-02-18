@@ -36,8 +36,8 @@ body {
 }
 .home{
    
-    width: 5vh;
-    height: 4vh;
+    width: 4.5vh;
+    height: 3.5vh;
 }
 .header-texto {
     display: flex;
@@ -73,6 +73,6 @@ body {
 .texto-footer {
     color: rgba(0, 0, 0, 0.651);
 
-    margin-bottom: .1rem;
-    font-size: .6rem;
+    margin-bottom: .2vh;
+    font-size: 1vh;
 }
