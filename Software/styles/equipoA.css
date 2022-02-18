@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -91,7 +96,7 @@
 }
 
 #contenedor-hardware {
-    background-image: url("../img/NOSOTROS2.jpg");
+    background-image: url("../img/nosotros4.jpg");
 }
 
 .nombre-contenedor {
