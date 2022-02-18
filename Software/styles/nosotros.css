@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
 
+  
+
     background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
@@ -12,38 +14,54 @@
 }
 
 
-.contenedor-articulos{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-    padding: 2rem;
-
-    background-color: red;
-}
-
-
-.contenedor-general{
+.contenedor{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
+    width: 100%;
+    max-height: fit-content;
+    /* background-color: pink; */
+}
+.superior{
 
-    background-color:yellow;
+
 }
-.imagen-medio {
-    position: relative;
-    height: 50vh;
-    width: 70vh;
+.inferior{
+ 
+    /* background-color: rgb(121, 72, 81); */
+    justify-content: center;
+
 }
+
+.contenedor-auxiliar{
+    display: flex;
+
+    height: 100%;
+
+    /* background-color: red; */
+}
+.pos-abajo{
+    align-items: flex-end;
+}
+.pos-arriba{
+    align-items: flex-start;
+}
+
+.imagen-logo{
+    margin: 0vh 15vh 0vh 15vh ;
+}
+
+
+
 
 .contenedor-contenido {
     position: relative;
-    height: 40vh;
-    width: 30vh;
-    margin: 6rem 0rem 6rem 0rem;
+    height: 35vh;
+    width: 25vh;
+    margin: 1rem 0rem 1rem 0rem;
 
-    background-color: blue;
+    /* background-color: blue; */
 }
 @keyframes mover {
    
@@ -78,11 +96,11 @@
 
     border-radius: 1rem;
 
-    background-color: green;
+    /* background-color: green; */
 }
 
 #contenedor-firmware{
-    background-image: url("../img/datos.png");
+    background-image: url("../img/softwareCodigo.png");
 }
 
 #contenedor-software {
@@ -103,7 +121,7 @@
     width: fit-content;
 
     color: white;
-    font-size: 5vh;
-    font-weight: 200;
+    font-size: 4vh;
+    font-weight: 300;
 }
 
