@@ -36,8 +36,8 @@ body {
 }
 .home{
    
-    width: 3.5vh;
-    height: 3.5vh;
+    width: 5vh;
+    height: 4vh;
 }
 .header-texto {
     display: flex;
