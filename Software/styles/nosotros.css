@@ -99,12 +99,12 @@
     /* background-color: green; */
 }
 
-#contenedor-firmware{
-    background-image: url("../img/softwareCodigo.png");
-}
-
 #contenedor-software {
-    background-image: url("../img/softwareComp.jpg");
+    background-image: url("../img/softwareCodigo.png");
+    
+}
+#contenedor-firmware{
+    background-image: url("../img/softwareCompInvertido.jpg");
 }
 
 #contenedor-hardware {
