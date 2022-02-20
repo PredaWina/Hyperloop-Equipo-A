@@ -1,51 +1,51 @@
-
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-  
+
 
     background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
+    padding: 3vh;
 }
 
 
-.contenedor{
+.contenedor {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
+
     width: 100%;
     max-height: fit-content;
-    /* background-color: pink; */
 }
 
-.inferior{
- 
-    justify-content: center;
+.inferior {
+
+    justify-content: space-evenly;
 
 }
 
-.contenedor-auxiliar{
+.contenedor-auxiliar {
     display: flex;
 
-    height: 100%;
-
-    /* background-color: red; */
+    height: fit-content;
 }
-.pos-abajo{
+
+.pos-abajo {
     align-items: flex-end;
 }
-.pos-arriba{
+
+.pos-arriba {
     align-items: flex-start;
 }
 
-.imagen-logo{
-    margin: 0vh 15vh 0vh 15vh ;
+.imagen-logo {
+    height: 40vh;
 }
 
 .contenedor-contenido {
@@ -56,11 +56,12 @@
 }
 
 @keyframes mover {
-   
+
     from {
         top: 0px;
         filter: brightness(100%);
     }
+
     to {
         top: -15px;
         filter: brightness(140%);
@@ -68,12 +69,12 @@
 }
 
 .contenedor-contenido:hover {
-    cursor:pointer;
+    cursor: pointer;
 
     animation: mover;
     animation-duration: .3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 .contenedor-image {
@@ -83,19 +84,18 @@
     background-position: center;
 
     height: 100%;
-
     filter: blur(0.5px) brightness(80%);
-
     border-radius: 1.9vh;
 }
 
 #contenedor-software {
     background-image: url("../img/softwareMorado.png");
-    
+
 }
-#contenedor-firmware{
+
+#contenedor-firmware {
     background-image: url("../img/firmwareAzul.jpg");
-    
+
 }
 
 #contenedor-hardware {
@@ -115,4 +115,3 @@
     font-size: 4vh;
     font-weight: 300;
 }
-

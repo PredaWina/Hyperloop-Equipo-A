@@ -30,17 +30,19 @@ body {
 }
 
 .github {
-   
+
     width: 5vh;
     height: 5vh;
-    
+
 }
-.home{
-   
+
+.home {
+
     width: 3.5vh;
     height: 2.5vh;
-   
+
 }
+
 .header-texto {
     display: flex;
     justify-content: center;
