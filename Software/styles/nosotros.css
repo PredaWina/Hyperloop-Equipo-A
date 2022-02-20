@@ -1,0 +1,117 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    padding: 3vh;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+    max-height: fit-content;
+}
+
+.inferior {
+
+    justify-content: space-evenly;
+
+}
+
+.contenedor-auxiliar {
+    display: flex;
+
+    height: fit-content;
+}
+
+.pos-abajo {
+    align-items: flex-end;
+}
+
+.pos-arriba {
+    align-items: flex-start;
+}
+
+.imagen-logo {
+    height: 40vh;
+}
+
+.contenedor-contenido {
+    position: relative;
+    height: 35vh;
+    width: 25vh;
+    margin: 1.6vh 0rem 1.6vh 0rem;
+}
+
+@keyframes mover {
+
+    from {
+        top: 0px;
+        filter: brightness(100%);
+    }
+
+    to {
+        top: -15px;
+        filter: brightness(140%);
+    }
+}
+
+.contenedor-contenido:hover {
+    cursor: pointer;
+
+    animation: mover;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+
+}
+
+.contenedor-image {
+    background-image: url("../img/Esquematico\ PIC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+    filter: blur(0.5px) brightness(80%);
+    border-radius: 1.9vh;
+}
+
+#contenedor-software {
+    background-image: url("../img/softwareMorado.png");
+
+}
+
+#contenedor-firmware {
+    background-image: url("../img/firmwareAzul.jpg");
+
+}
+
+#contenedor-hardware {
+    background-image: url("../img/h1.jpg");
+}
+
+.nombre-contenedor {
+    /* z-index: 0; */
+    position: relative;
+    top: -50%;
+    left: 18%;
+    transform: translate(0%, -50%);
+
+    width: fit-content;
+
+    color: white;
+    font-size: 4vh;
+    font-weight: 300;
+}

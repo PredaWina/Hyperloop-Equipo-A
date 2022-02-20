@@ -8,8 +8,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
-    /* height: 100%; */
 }
 
 .contendor-temperatura {
@@ -18,8 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    width:16%;
-    /* background-color: red; */
+    width: 16%;
 }
 
 .contenedor-temperatura-texto {
@@ -28,79 +25,62 @@
     align-items: center;
 
     width: 100%;
-    margin-top: .5rem;
-
-    /* background-color: green; */
+    margin-top: .8vh;
 }
 
 .contendor-temperatura-imagen {
-    width: 3rem;
-    margin-right: 1rem;
+    width: 5vh;
+    margin-right: 2vh;
 }
+
 .contendor-temperatura-imagen-pequeño {
     display: flex;
     justify-content: center;
-    width: 2rem;
-    margin-right: 1rem;
-    margin-left: .5rem;
+
+    width: 3.4vh;
+    margin-right: 1.8vh;
+    margin-left: .8vh;
 }
+
 .subcontenedor-texto {
     display: flex;
-
     justify-content: flex-end;
     align-items: center;
 
     width: 100%;
-    margin-right: 1rem;
-    /* background-color: blue; */
+    margin-right: 1.7vh;
 }
 
-/* #texto-temp {
-    font-size: 3rem;
-    margin-right: 1rem;
-} */
-
-.texto-grande{
+.texto-grande {
     color: whitesmoke;
-    margin: .1rem;
+    margin: .15vh;
 
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 5vh;
 }
+
 .texto-pequeño {
     color: whitesmoke;
-    margin: .1rem;
-    
+    margin: .15vh;
 
     font-weight: 100;
-    font-size: 2rem;
-}
-.texto-unidades{
-    font-size: 1.5rem;
-    margin-right: 3rem;
+    font-size: 3.3vh;
 }
 
-.separador{
-    
+.texto-unidades {
+    font-size: 3vh;
+    margin-right: 4.3vh;
+}
+
+.separador {
     border-color: rgba(255, 255, 255, 0.26);
     width: 100%;
-    /* height: 0; */
     border-width: 1px 0px 0px 0px;
-    /* border-radius: 1rem; */
-    
 }
 
 .contenedor-boton {
-    height: 5rem;
-    width: 5rem;
+    height: 8.2vh;
+    width: 8.2vh;
 
-    margin-top: 2rem;
-
-    /* background-color: pink; */
-}
-
-.contenedor-imagen-esquemas {
-    height: 55%;
-
-    margin-right: 2rem;
+    margin-top: 3.5vh;
 }

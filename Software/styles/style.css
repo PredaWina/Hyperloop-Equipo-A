@@ -19,8 +19,9 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem;
+    padding: 2.3vh;
 
+    font-size: 2vh;
     background-color: white;
 }
 
@@ -29,16 +30,19 @@ body {
 }
 
 .github {
-   
+
     width: 5vh;
     height: 5vh;
-    
+
 }
-.home{
-   
+
+.home {
+
     width: 3.5vh;
-    height: 3.5vh;
+    height: 2.5vh;
+
 }
+
 .header-texto {
     display: flex;
     justify-content: center;
@@ -52,20 +56,12 @@ body {
 }
 
 .titulo {
-    margin-right: 1rem;
+
     color: black;
     font-weight: 900;
     font: bold;
 }
 
-.main {
-    background-color: black;
-    background-image: url('../img/logo_hyperloopUPV.jpg');
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 
 .footer {
     display: flex;
@@ -73,7 +69,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: .5rem;
+    padding: .8vh;
 
     background-color: white;
 }
@@ -81,6 +77,6 @@ body {
 .texto-footer {
     color: rgba(0, 0, 0, 0.651);
 
-    margin-bottom: .1rem;
-    font-size: .6rem;
+    /* margin-bottom: vh; */
+    font-size: 1.3vh;
 }

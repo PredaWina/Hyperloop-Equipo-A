@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
 
-    font-size: 3.5rem;
+    font-size: 5.5vh;
+
 }
 
 .header-texto {
@@ -13,8 +19,8 @@
     align-items: center;
     justify-content: center;
 
-    padding: 3rem;
-    
+    padding: 5vh;
+
 }
 
 #principal {
@@ -49,15 +55,16 @@
     position: relative;
     height: 50vh;
     width: 40vh;
-    margin: 6rem 0rem 6rem 0rem;
+    margin: 10vh 0vh 10vh 0vh;
 }
 
 @keyframes mover {
-   
+
     from {
         top: 0px;
         filter: brightness(100%);
     }
+
     to {
         top: -15px;
         filter: brightness(150%);
@@ -65,12 +72,12 @@
 }
 
 .contenedor-contenido:hover {
-    cursor:pointer;
+    cursor: pointer;
 
     animation: mover;
     animation-duration: .3s;
     animation-fill-mode: forwards;
-    
+
 }
 
 .contenedor-image {
@@ -81,9 +88,9 @@
 
     height: 100%;
 
-    filter: blur(0.5px) brightness(50%);
+    filter: blur(0.5px) brightness(70%);
 
-    border-radius: 1rem;
+    border-radius: 1.9vh;
 }
 
 #contenedor-sensores {
@@ -91,7 +98,7 @@
 }
 
 #contenedor-hardware {
-    background-image: url("../img/h1.jpg");
+    background-image: url("../img/nosotros4.jpg");
 }
 
 .nombre-contenedor {
