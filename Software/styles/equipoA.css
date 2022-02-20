@@ -9,7 +9,8 @@
     align-items: center;
     /* justify-content: center; */
 
-    font-size: 3.5rem;
+    font-size: 5.5vh;
+    
 }
 
 .header-texto {
@@ -18,7 +19,7 @@
     align-items: center;
     justify-content: center;
 
-    padding: 3rem;
+    padding: 5vh;
     
 }
 
@@ -54,7 +55,7 @@
     position: relative;
     height: 50vh;
     width: 40vh;
-    margin: 6rem 0rem 6rem 0rem;
+    margin: 10vh 0vh 10vh 0vh;
 }
 
 @keyframes mover {
@@ -86,9 +87,9 @@
 
     height: 100%;
 
-    filter: blur(0.5px) brightness(50%);
+    filter: blur(0.5px) brightness(70%);
 
-    border-radius: 1rem;
+    border-radius: 1.9vh;
 }
 
 #contenedor-sensores {

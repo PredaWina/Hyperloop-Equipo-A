@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 1.5rem;
+    padding: 2.3vh;
 
     background-color: white;
 }
@@ -36,8 +36,8 @@ body {
 }
 .home{
    
-    width: 4vh;
-    height: 3vh;
+    width: 3.5vh;
+    height: 2.5vh;
    
 }
 .header-texto {
@@ -53,7 +53,7 @@ body {
 }
 
 .titulo {
-    margin-right: 1rem;
+
     color: black;
     font-weight: 900;
     font: bold;
@@ -66,7 +66,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: .5vh;
+    padding: .8vh;
 
     background-color: white;
 }
@@ -74,6 +74,6 @@ body {
 .texto-footer {
     color: rgba(0, 0, 0, 0.651);
 
-    margin-bottom: .2vh;
+    /* margin-bottom: vh; */
     font-size: 1.3vh;
 }
