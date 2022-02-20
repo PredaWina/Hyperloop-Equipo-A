@@ -44,7 +44,7 @@ void ADC_init(void) // Funcion que se encarga de la configuracion inicial del AD
     ADCON1bits.ADFM = 1;        // Posiciona los MSB a la derecha
     ADCON1bits.PCFG = 0b0100;   // Configuracion que establece el pin AN0 como analogico
     
-    ADCON1bits.ADCS2 = 0;       // Seleciona la operacion 8 TOSC para superal el TAD-->
+    ADCON1bits.ADCS2 = 0;       // Seleciona la operacion 32 TOSC para superal el TAD-->
     ADCON0bits.ADCS1 = 1;       // -->minimo de 1.6uS
     ADCON0bits.ADCS0 = 0;  
     
