@@ -48,17 +48,13 @@
     margin: 0vh 15vh 0vh 15vh ;
 }
 
-
-
-
 .contenedor-contenido {
     position: relative;
     height: 35vh;
     width: 25vh;
-    margin: 1rem 0rem 1rem 0rem;
-
-    /* background-color: blue; */
+    margin: 1.6vh 0rem 1.6vh 0rem;
 }
+
 @keyframes mover {
    
     from {
@@ -67,7 +63,7 @@
     }
     to {
         top: -15px;
-        filter: brightness(130%);
+        filter: brightness(140%);
     }
 }
 
@@ -88,11 +84,9 @@
 
     height: 100%;
 
-    filter: blur(0.5px) brightness(70%);
+    filter: blur(0.5px) brightness(80%);
 
-    border-radius: 1rem;
-
-    /* background-color: green; */
+    border-radius: 1.9vh;
 }
 
 #contenedor-software {
