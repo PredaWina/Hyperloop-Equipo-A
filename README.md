@@ -20,8 +20,9 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
 - [x] Schematics
 - [X] Firmware
 - [X] Software
-    - [x] Funcion minimo
-    - [x] Funcion maximo
+    - [x] Diseño general
+    - [x] Funcion mínimo
+    - [x] Funcion máximo
     - [x] Mejoras en el diseño
 - [X] Presupuesto
 - [ ] Documentación
