@@ -25,4 +25,4 @@ El link para editar el [Trabajo escrito](https://es.overleaf.com/9679599333dgcsb
     - [x] Funcion máximo
     - [x] Mejoras en el diseño
 - [X] Presupuesto
-- [ ] Documentación
+- [x] Documentación
