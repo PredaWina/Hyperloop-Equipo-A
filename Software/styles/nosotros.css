@@ -50,8 +50,8 @@
 
 .contenedor-contenido {
     position: relative;
-    height: 35vh;
-    width: 25vh;
+    height: 33vh;
+    width: 23vh;
     margin: 1.6vh 0rem 1.6vh 0rem;
 }
 
@@ -112,6 +112,6 @@
     width: fit-content;
 
     color: white;
-    font-size: 4vh;
+    font-size: 3.6vh;
     font-weight: 300;
 }
